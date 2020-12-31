@@ -117,3 +117,28 @@ nav a:hover {
     font-size: 16px;
     text-decoration: none;
 }
+#geral {
+    display: flex;
+    justify-content: center;
+}
+#geral section {
+    flex:2;
+}
+#geral aside {
+    flex:1;
+}
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text {
+    color:#000;
+    font-size:23px;
+    font-weight:bold;
+}
+.widget_title_bar {
+    width: 55px;
+    height:3px;
+    background-color: #39aae1;
+    margin-top: 10px;
+}
